@@ -1,0 +1,80 @@
+File Name AFTEER:  p8.png
+#########:  Token {
+  ipnft: 'bafyreibuvn7oa2juwi5yvrnvs75edysun63sedqtcaiawmmqsug343jdua',
+  url: 'ipfs://bafyreibuvn7oa2juwi5yvrnvs75edysun63sedqtcaiawmmqsug343jdua/metadata.json'
+}
+File Name AFTEER:  p12.png
+#########:  Token {
+  ipnft: 'bafyreieuv6mxmwzkif6ebrxi7eaiplenmoq26gkniaamrwzhl5cuz7ut2e',
+  url: 'ipfs://bafyreieuv6mxmwzkif6ebrxi7eaiplenmoq26gkniaamrwzhl5cuz7ut2e/metadata.json'
+}
+File Name AFTEER:  p1.png
+#########:  Token {
+  ipnft: 'bafyreihywke56aws2ps4y4zxk4cl2znjgmra2tqsopz3icq6r7jtay24zq',
+  url: 'ipfs://bafyreihywke56aws2ps4y4zxk4cl2znjgmra2tqsopz3icq6r7jtay24zq/metadata.json'
+}
+File Name AFTEER:  p11.png
+#########:  Token {
+  ipnft: 'bafyreidiw556l5xt57uk74j3uqsrece2tr7f2qhgn5vsrvukf7qwfpxr44',
+  url: 'ipfs://bafyreidiw556l5xt57uk74j3uqsrece2tr7f2qhgn5vsrvukf7qwfpxr44/metadata.json'
+}
+File Name AFTEER:  p6.png
+#########:  Token {
+  ipnft: 'bafyreiab3mwqkqrku2hzivwreudfbso6qdrpkkwmryqtvsq33tslokjaze',
+  url: 'ipfs://bafyreiab3mwqkqrku2hzivwreudfbso6qdrpkkwmryqtvsq33tslokjaze/metadata.json'
+}
+File Name AFTEER:  p10.png
+#########:  Token {
+  ipnft: 'bafyreiaytjovfznynjzku63d6gxyil2f76r7jztyxdboy5xcnth3hqablu',
+  url: 'ipfs://bafyreiaytjovfznynjzku63d6gxyil2f76r7jztyxdboy5xcnth3hqablu/metadata.json'
+}
+File Name AFTEER:  p7.png
+#########:  Token {
+  ipnft: 'bafyreig7jjncnsv6t6ttfkl32mxoik2ox5unhzptugycd3pu5jrpbk7ihm',
+  url: 'ipfs://bafyreig7jjncnsv6t6ttfkl32mxoik2ox5unhzptugycd3pu5jrpbk7ihm/metadata.json'
+}
+File Name AFTEER:  p9.png
+#########:  Token {
+  ipnft: 'bafyreidcfkdy7bh2dkuv556gryksno6tpwwti6xih3gmpf2ixauvfe7e3u',
+  url: 'ipfs://bafyreidcfkdy7bh2dkuv556gryksno6tpwwti6xih3gmpf2ixauvfe7e3u/metadata.json'
+}
+File Name AFTEER:  p0.png
+#########:  Token {
+  ipnft: 'bafyreig5bhzvlxpdv2o3mvifsrhhwisdn2mgerxe36cgyziek73ldtppre',
+  url: 'ipfs://bafyreig5bhzvlxpdv2o3mvifsrhhwisdn2mgerxe36cgyziek73ldtppre/metadata.json'
+}
+File Name AFTEER:  p3.png
+#########:  Token {
+  ipnft: 'bafyreiaycsatl2dclimmcxi5vvgzkgu5lyjgqqey2efe5c5zjqe3ybkh5e',
+  url: 'ipfs://bafyreiaycsatl2dclimmcxi5vvgzkgu5lyjgqqey2efe5c5zjqe3ybkh5e/metadata.json'
+}
+File Name AFTEER:  series.png
+#########:  Token {
+  ipnft: 'bafyreiezvzdgidnbrixx722nbi3krvmjyzcrhef7p25itgulrfdegzaukm',
+  url: 'ipfs://bafyreiezvzdgidnbrixx722nbi3krvmjyzcrhef7p25itgulrfdegzaukm/metadata.json'
+}
+File Name AFTEER:  p5.png
+#########:  Token {
+  ipnft: 'bafyreif5vmtnp25cj3bbzrhhye7cfcxetx2hw4n3ikatafe4l734kawm7i',
+  url: 'ipfs://bafyreif5vmtnp25cj3bbzrhhye7cfcxetx2hw4n3ikatafe4l734kawm7i/metadata.json'
+}
+File Name AFTEER:  p4.png
+#########:  Token {
+  ipnft: 'bafyreifh3togp6apdulz2ubuigierzsd7yetpa6ackhfhsqozxx4pyihq4',
+  url: 'ipfs://bafyreifh3togp6apdulz2ubuigierzsd7yetpa6ackhfhsqozxx4pyihq4/metadata.json'
+}
+File Name AFTEER:  p14.png
+#########:  Token {
+  ipnft: 'bafyreidvgwafjylmu7dn36ox5qo6rx55jxidansj5tod5n4trocr424jhi',
+  url: 'ipfs://bafyreidvgwafjylmu7dn36ox5qo6rx55jxidansj5tod5n4trocr424jhi/metadata.json'
+}
+File Name AFTEER:  p13.png
+#########:  Token {
+  ipnft: 'bafyreictae6jhz3hddskcwphk6yh2xbin42ilebh23q3fm7m7fy2mn6njy',
+  url: 'ipfs://bafyreictae6jhz3hddskcwphk6yh2xbin42ilebh23q3fm7m7fy2mn6njy/metadata.json'
+}
+File Name AFTEER:  p2.png
+#########:  Token {
+  ipnft: 'bafyreiau5td7zixenqu7pvmdwhx2xxb3tvx7wwuyklsdzfbsxk4dg2cn6y',
+  url: 'ipfs://bafyreiau5td7zixenqu7pvmdwhx2xxb3tvx7wwuyklsdzfbsxk4dg2cn6y/metadata.json'
+}

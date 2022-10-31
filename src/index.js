@@ -1,21 +1,12 @@
-// ############### This file successfully NFT uploaded in NFT.Storage ###############
-// ############### This file successfully NFT uploaded in NFT.Storage ###############
-// ############### This file successfully NFT uploaded in NFT.Storage ###############
-
 import { NFTStorage, File } from "nft.storage";
 import mime from "mime";
 import fs from "fs";
 import path from "path";
 const NFT_STORAGE_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDAxNmMyYzJGMzlFZWE2MzkxN0NDMjc0RDRCOTEwZGMwRTQ5ZTVFM0EiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2Njg5MTYwMzI0NCwibmFtZSI6IkFuaXNfRGVtbyJ9.OtJWQxunFy2zbW5iHfBPhPfL9i0nLVOZNFU2srvzoIo";
+import { playerMetaData } from "./p";
 
-async function storeNFT(
-  imagePath,
-  name,
-  description,
-  attributes,
-  external_url
-) {
+async function storeNFT(imagePath, metaData) {
   // load the file from disk
   const image = await fileFromPath(imagePath);
 
@@ -25,10 +16,7 @@ async function storeNFT(
   // call client.store, passing in the image & metadata
   return nftstorage.store({
     id: NFT_STORAGE_KEY,
-    name,
-    description,
-    attributes,
-    external_url,
+    ...metaData,
     image,
   });
 }
@@ -36,41 +24,30 @@ async function storeNFT(
 async function fileFromPath(filePath) {
   const content = await fs.promises.readFile(filePath);
   const type = mime.getType(filePath);
-  console.log("BEFORE: ", content, path.basename(filePath), type);
   return new File([content], path.basename(filePath), { type });
 }
 
-async function main() {
-  let imagePath = path.join(__dirname, "avatar.png");
-  let name = "Blueliner Avatar";
-  let description = "This is blueliner avatar of Jersey City";
-  let attributes = [
-    {
-      trait_type: "Base",
-      value: "Jersey City Base",
-    },
-    {
-      trait_type: "Jersey",
-      value: "20",
-    },
-    {
-      trait_type: "Game",
-      value: "Soccer",
-    },
-    {
-      trait_type: "Age",
-      value: "17",
-    },
-  ];
-  let external_url = "https://blueliner.io/";
-  const result = await storeNFT(
-    imagePath,
-    name,
-    description,
-    attributes,
-    external_url
-  );
-  console.log("ANIS: ", result);
+function main() {
+  const directoryPath = path.join(__dirname, "images");
+  fs.readdir(directoryPath, async function (err, files) {
+    if (err) {
+      return console.log("Unable to scan directory: " + err);
+    }
+
+    await Promise.all(
+      files.map(async (file) => {
+        let imagePath = path.join(__dirname, `/images/${file}`);
+
+        let fileNamePrefix = file.split(".")[0];
+        let metaData = playerMetaData[fileNamePrefix];
+
+        const result = await storeNFT(imagePath, metaData);
+
+        console.log("File Name AFTEER: ", file);
+        console.log("#########: ", result);
+      })
+    );
+  });
 }
 
 main();
