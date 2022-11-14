@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "arweave": "^1.11.6",
+    "files-from-path": "^0.2.6",
     "ipfs-http-client": "^59.0.0",
     "nft.storage": "^7.0.0"
   }

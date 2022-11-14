@@ -1855,6 +1855,16 @@ fast-fifo@^1.0.0:
   resolved "https://registry.yarnpkg.com/fast-fifo/-/fast-fifo-1.1.0.tgz#17d1a3646880b9891dfa0c54e69c5fef33cad779"
   integrity sha512-Kl29QoNbNvn4nhDsLYjyIAaIqaJB6rBx5p3sL9VjaefJ+eMFBWVZiaoguaoZfzEKr5RhAti0UgM8703akGPJ6g==
 
+files-from-path@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/files-from-path/-/files-from-path-0.2.6.tgz#a093918d67ebfe1d50fffef926855574146cf571"
+  integrity sha512-Mz4UNkv+WcRLxcCXAORbfpwYiXI60SN9C1ZfeyGFv0xQUmblgbOkSWwFwX+Ov/TaR3FEyzwDyPnCQjpPRGSxKA==
+  dependencies:
+    err-code "^3.0.1"
+    graceful-fs "^4.2.9"
+    ipfs-unixfs "^6.0.5"
+    it-glob "^0.0.13"
+
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
@@ -2006,6 +2016,11 @@ globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
+
+graceful-fs@^4.2.9:
+  version "4.2.10"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
+  integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
 hamt-sharding@^2.0.0:
   version "2.0.1"
@@ -2338,7 +2353,7 @@ ipfs-unixfs-importer@^9.0.4:
     rabin-wasm "^0.1.4"
     uint8arrays "^3.0.0"
 
-ipfs-unixfs@^6.0.0, ipfs-unixfs@^6.0.3:
+ipfs-unixfs@^6.0.0, ipfs-unixfs@^6.0.3, ipfs-unixfs@^6.0.5:
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/ipfs-unixfs/-/ipfs-unixfs-6.0.9.tgz#f6613b8e081d83faa43ed96e016a694c615a9374"
   integrity sha512-0DQ7p0/9dRB6XCb0mVCTli33GzIzSVx5udpJuVM47tGcD+W+Bl4LsnoLswd3ggNnNEakMv1FdoFITiEnchXDqQ==
@@ -2609,6 +2624,14 @@ it-first@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/it-first/-/it-first-2.0.0.tgz#b0bba28414caa2b27b807ac15e897d4a9526940d"
   integrity sha512-fzZGzVf01exFyIZXNjkpSMFr1eW2+J1K0v018tYY26Dd4f/O3pWlBTdrOBfSQRZwtI8Pst6c7eKhYczWvFs6tA==
+
+it-glob@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/it-glob/-/it-glob-0.0.13.tgz#78913fe835fcf0d46afcdb6634eb069acdfc4fbc"
+  integrity sha512-0Hcd5BraJUPzL28NWiFbdNrcdyNxNTKKdU3sjdFiYynNTQpwlG2UKW31X7bp+XhJwux/oPzIquo5ioztVmc2RQ==
+  dependencies:
+    "@types/minimatch" "^3.0.4"
+    minimatch "^3.0.4"
 
 it-glob@^1.0.1:
   version "1.0.2"
